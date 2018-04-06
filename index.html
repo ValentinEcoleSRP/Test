@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<title>Test AxeCibles / Intégration HTML - CSS</title>
+</head>
+
+<body>
+	<section class="header">
+		<img src="img/axecibles.jpg" class="headerImg" alt="Logo AxeCibles">
+
+		<div class="headerMenu">
+			<a href="#" class="headerMenu-lien" title="Accueil">Accueil</a>
+			<a href="presentation.html" target="_blank" class="headerMenu-lien" title="Présentation">Présentation</a>
+			<a href="#" class="headerMenu-lien" title="Contact">Contact</a>
+			<a href="#" class="headerMenu-lien" title="Plan d'accès">Plan d'accès</a>
+		</div>
+
+		<h3>Baseline</h3>
+
+	</section>
+
+	<section class="body">
+
+		<div class="bodyContainer">
+
+			<div class="bodyContainer-wrapper">
+				<div class="bodyContainer-wrapperTel">
+					<div>Tél. <a href="#" class="bodyContainer-wrapperTel-tel">03 35 29 45 87</a></div>
+					<div>Mail. &nbsp <a href="#" class="bodyContainer-wrapperTel-mail">contact@axecibles.com</a></div>
+				</div>
+				<div class="bodyContainer-wrapperNews">
+					<h1>NEWS</h1>
+					<p><b>> Illud autem non dubitatur quod cum esset aliquando virtutum omiunm.</b></br>
+						Nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis.</p>
+
+					<a href="#" class="bodyContainer-wrapperNews-link">Toutes les news</a>
+				</div>
+			</div>
+
+			<img name="slide" class="bodyContainer-diapo"/>
+
+		</div>
+	</section>
+
+	<section class="nav">
+		<ul id="menuDeroulant">
+			<li>Menu 1
+				<ul>
+					<li><a href="#">Sous-menu 1</a></li>
+					<li><a href="#">Sous-menu 2</a></li>
+					<li><a href="#">Sous-menu 3</a></li>
+				</ul>
+			</li>
+		
+			<div class="menu">Menu 2</div>
+			<div class="menu">Menu 3</div>
+			<div class="menu">Menu 4</div>
+			<div class="menu">Menu 5</div>
+			<div class="menu">Menu 6</div>
+		</ul>
+	</section>
+
+	<section class="nom">
+
+		<h1 class="nomTitre">Nom de la page</h1>
+		<p class="nomPara1">Paphius quin etian et Cornelius senatores, ambo venerorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus.</p>
+
+		<div class="nomPara2"> → Per hoc minui studium suum existimans Paulus, ut erat in conplicandis negotiis artifex dirus, unde ei Catenae inditum est cognomentum, vicarium ipsum</div>
+
+		<div class="nomPara2"> → eos quibus praeerat adhuc defensantem ad sortem perculorum communium traxit.</div>
+
+		<div class="nomPara2"> → et instabat ut eum quoque cum tribunis et aliis pluribus ad comitatum</div>
+
+		<div class="nomPara2"> → imperatoris vinctum perduceret: quo percitus ille exitio urgente abrupto ferro eundem adoritur Paulum</div>
+
+		<div class="nomPara2"> → et quia languente dextera, letaliter ferire non potuit, iam districtum mucronem in</div>
+
+		<div class="nomPara2"> → proprium latus inpegit. ocque deformi genere mortis excessit e vita iustissimus rector ausus miserabiles casus levare multorum.</div>
+
+		<p class="nomPara3">Quam quidem partem accusationis admiratus sum et moleste tuli potissimum esse Atratuno datam. Neque enim decebat neque aetas illa postulabat neque, id quod animadvertere poteratis, pudor patiebatur optimi adulescentis in tali illum oratione versari. Vellem aliquis ex vobis robustioribus hunc male dicendi locum suscepisset; aliquanto liberius et fortius et magis more nostro refutaremus istam male dicenti licentiam. Tecum, Atratine, again lenius, quod et pudor tuus moderatur orationi meae et meum erga te parentemque tuum beneficium tueri debeo.</p>
+
+		<p class="nomPara4">Unde Rufinus ea tempestate praefectus praetorio ad discriment trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satifaceret atque monstraret, quam ob causam annonae convectio sit impedita.</p>
+
+		<a href="#" class="nomDecouvrez"> Découvrez votre prestataire</a>
+
+
+		<div class="nomBlc">
+			<a href="presentation.html" target="_blank" class="nomBlc-bloc1"> <div class="nomBlc-chiffre1">1</div> </a>
+			<a href="presentation.html" target="_blank" class="nomBlc-bloc2"> <div class="nomBlc-chiffre2">2</div></a>
+			<a href="presentation.html" target="_blank" class="nomBlc-bloc3"> <div class="nomBlc-chiffre3">3</div> </a>
+		</div>
+
+	</section>
+
+	<section class="footer">
+		<div class="footerContainer">
+			<div class="footerContainer-entreprise">Votre entreprise -</div>
+			<div class="footerContainer-info"> Adresse &nbsp - </div>
+			<div class="footerContainer-info">Ville &nbsp -</div>
+			<div class="footerContainer-info">Code postal &nbsp - </div>
+			<div class="footerContainer-info">Tél. 03 35 29 45 87</div>
+		</div>
+	</section>
+
+</body>
+
+
+<script>
+
+var i = 0;
+var color = [];
+var time = 3000;
+
+
+// Color List 
+
+color[0] = 'img/green.jpg';
+color[1] = 'img/red.jpg';
+color[2] = 'img/blue.jpg';
+color[3] = 'img/black.jpg';
+
+// Change color
+
+function changeColor(){
+	document.slide.src = color[i];
+
+	if(i < color.length - 1){
+		i++;
+	}else{
+		i = 0;
+	}
+
+	setTimeout("changeColor()", time);
+}
+
+window.onload = changeColor;
+</script>
+
+
+<!-- <script type="text/javascript" href="js/main.js"></script> -->
+
+</html>
